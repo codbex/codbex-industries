@@ -1,0 +1,13 @@
+[
+  {
+    "table": "CODBEX_INDUSTRY",
+    "schema": "PUBLIC",
+    "file": "/codbex-industries/industries.csv",
+    "header": true,
+    "useHeaderNames": true,
+    "delimField": ",",
+    "delimEnclosing": "\"",
+    "distinguishEmptyFromNull": true,
+    "keys": []
+  }
+]

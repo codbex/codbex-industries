@@ -1,0 +1,5 @@
+{
+	"description": "Industries perspective",
+	"extensionPoint": "launchpad-codbex-perspective",
+	"module": "codbex-industries/gen/ui/Industries/extensions/perspective/perspective.js"
+}

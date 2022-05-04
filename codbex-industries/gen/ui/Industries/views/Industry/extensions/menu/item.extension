@@ -1,0 +1,5 @@
+{
+	"description": "Industry menu",
+	"extensionPoint": "shell-codbex-industries-menu",
+	"module": "codbex-industries/views/Industry/menu/item.js"
+}

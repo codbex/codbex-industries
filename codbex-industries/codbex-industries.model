@@ -1,0 +1,55 @@
+{
+    "model": {
+        "entities": [
+            {
+                "properties": [
+                    {
+                        "calculatedPropertyExpression": "",
+                        "dataAutoIncrement": "true",
+                        "dataLength": "0",
+                        "dataName": "INDUSTRY_ID",
+                        "dataNullable": "true",
+                        "dataPrimaryKey": "true",
+                        "dataType": "INTEGER",
+                        "dataUnique": "false",
+                        "isCalculatedProperty": "false",
+                        "name": "Id",
+                        "widgetIsMajor": "true",
+                        "widgetLength": "20",
+                        "widgetType": "TEXTBOX"
+                    },
+                    {
+                        "calculatedPropertyExpression": "",
+                        "dataAutoIncrement": "false",
+                        "dataLength": "127",
+                        "dataName": "INDUSTRY_NAME",
+                        "dataNullable": "true",
+                        "dataPrimaryKey": "false",
+                        "dataType": "VARCHAR",
+                        "dataUnique": "false",
+                        "isCalculatedProperty": "false",
+                        "name": "Name",
+                        "widgetIsMajor": "true",
+                        "widgetLength": "20",
+                        "widgetType": "TEXTBOX"
+                    }
+                ],
+                "dataCount": "SELECT COUNT(*) AS COUNT FROM CODBEX_INDUSTRY",
+                "dataName": "CODBEX_INDUSTRY",
+                "dataQuery": "",
+                "icon": "industry",
+                "layoutType": "MANAGE",
+                "menuIndex": "100",
+                "menuKey": "industry",
+                "menuLabel": "Industry",
+                "name": "Industry",
+                "perspectiveIcon": "industry",
+                "perspectiveName": "Industries",
+                "perspectiveOrder": "960",
+                "title": "Industry",
+                "tooltip": "Industry",
+                "type": "PRIMARY"
+            }
+        ]
+    }
+}
