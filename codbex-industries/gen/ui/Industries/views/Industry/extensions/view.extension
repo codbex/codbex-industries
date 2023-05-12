@@ -1,5 +1,0 @@
-{
-	"description": "Industry view",
-	"extensionPoint": "launchpad-codbex-Industries-view",
-	"module": "codbex-industries/gen/ui/Industries/views/Industry/extensions/view.js"
-}

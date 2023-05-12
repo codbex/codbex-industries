@@ -1,0 +1,86 @@
+{
+  "tablePrefix": "CODBEX",
+  "brand": "codbex",
+  "brandUrl": "https://www.codbex.com/",
+  "title": "Industries Management Module",
+  "description": "Managing industries",
+  "projectName": "codbex-industries",
+  "workspaceName": "workspace",
+  "filePath": "codbex-industries.model",
+  "perspectives": {
+    "industry": {
+      "views": [
+        "Industry"
+      ],
+      "name": "industry",
+      "label": "industry",
+      "order": "100",
+      "icon": "/services/web/resources/unicons/university.svg"
+    }
+  },
+  "models": [
+    {
+      "properties": [
+        {
+          "calculatedPropertyExpression": "",
+          "dataAutoIncrement": true,
+          "dataLength": "0",
+          "dataName": "INDUSTRY_ID",
+          "dataNullable": true,
+          "dataPrimaryKey": true,
+          "dataType": "INTEGER",
+          "dataUnique": false,
+          "isCalculatedProperty": false,
+          "name": "Id",
+          "widgetIsMajor": true,
+          "widgetLength": "20",
+          "widgetType": "TEXTBOX",
+          "dataNotNull": false,
+          "widgetLabel": "Id",
+          "inputRule": ""
+        },
+        {
+          "calculatedPropertyExpression": "",
+          "dataAutoIncrement": false,
+          "dataLength": "127",
+          "dataName": "INDUSTRY_NAME",
+          "dataNullable": true,
+          "dataPrimaryKey": false,
+          "dataType": "VARCHAR",
+          "dataUnique": false,
+          "isCalculatedProperty": false,
+          "name": "Name",
+          "widgetIsMajor": true,
+          "widgetLength": "20",
+          "widgetType": "TEXTBOX",
+          "dataNotNull": false,
+          "widgetLabel": "Name",
+          "minLength": 0,
+          "maxLength": 20,
+          "inputRule": ""
+        }
+      ],
+      "caption": "Manage entity Industry",
+      "dataCount": "SELECT COUNT(*) AS COUNT FROM ￯﾿ﾢ￯ﾾﾀ￯ﾾﾜCODBEX_tableName￯﾿ﾢ￯ﾾﾀ￯ﾾﾝ",
+      "dataName": "INDUSTRY",
+      "dataQuery": "",
+      "icon": "industry",
+      "layoutType": "MANAGE",
+      "menuIndex": "100",
+      "menuKey": "industry",
+      "menuLabel": "Industry",
+      "name": "Industry",
+      "navigationPath": "/Home",
+      "perspectiveIcon": "/services/web/resources/unicons/university.svg",
+      "perspectiveName": "industry",
+      "perspectiveOrder": "100",
+      "title": "Industry",
+      "tooltip": "Industry",
+      "type": "PRIMARY",
+      "primaryKeys": [
+        "Id"
+      ],
+      "primaryKeysString": "Id"
+    }
+  ]
+}

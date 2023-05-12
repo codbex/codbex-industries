@@ -34,8 +34,9 @@
                         "widgetType": "TEXTBOX"
                     }
                 ],
-                "dataCount": "SELECT COUNT(*) AS COUNT FROM CODBEX_INDUSTRY",
-                "dataName": "CODBEX_INDUSTRY",
+                "caption": "Manage entity Industry",
+                "dataCount": "SELECT COUNT(*) AS COUNT FROM ￢ﾀﾜ${tablePrefix}_tableName￢ﾀﾝ",
+                "dataName": "INDUSTRY",
                 "dataQuery": "",
                 "icon": "industry",
                 "layoutType": "MANAGE",
@@ -43,13 +44,23 @@
                 "menuKey": "industry",
                 "menuLabel": "Industry",
                 "name": "Industry",
-                "perspectiveIcon": "industry",
-                "perspectiveName": "Industries",
-                "perspectiveOrder": "960",
+                "navigationPath": "/Home",
+                "perspectiveIcon": "/services/web/resources/unicons/university.svg",
+                "perspectiveName": "industry",
+                "perspectiveOrder": "100",
                 "title": "Industry",
                 "tooltip": "Industry",
                 "type": "PRIMARY"
             }
-        ]
+        ],
+        "perspectives": [
+            {
+                "name": "industry",
+                "label": "Industry",
+                "icon": "/services/web/resources/unicons/university.svg",
+                "order": "100"
+            }
+        ],
+        "navigations": []
     }
 }
