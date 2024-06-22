@@ -1,4 +1,4 @@
-name: Release - Application
+name: Release - Module
 
 on:
   workflow_dispatch:
@@ -12,24 +12,24 @@ run-name: 'version set to ${{ inputs.release-version }} for release'
 
 jobs:
   main:
-    uses: codbex/codbex-infra/.github/workflows/application-release.yaml@main
+    uses: codbex/codbex-infra/.github/workflows/module-release.yaml@main
     with:
-      application-name: codbex-industries
+      packages: codbex-industries,codbex-industries-data
+      packages-build: codbex-industries
       release-version: ${{ inputs.release-version }}
       release-content: |
         ## codbex-industries - ${{ inputs.release-version }}
   
-        Industries Management Application
+        Industries Management Module
   
-        ## Deployment
+        ## Installation
   
         ```
-        docker run --name codbex-industries \
-        --rm -p 8080:8080 -p 8081:8081 \
-        ghcr.io/codbex/codbex-industries:${{ inputs.release-version }}
+        npm install @codbex/codbex-industries@${{ inputs.release-version }}
+        npm install @codbex/codbex-industries-data@${{ inputs.release-version }}
         ```
   
         ## Access points:
   
-        - [/services/web/codbex-industries/gen/](http://localhost:8080/services/web/codbex-industries/gen/) - Admin Panel
+        - [/services/web/codbex-industries/gen/](http://localhost:80/services/web/codbex-industries/gen/) - Admin Panel
     secrets: inherit
