@@ -1,0 +1,27 @@
+{
+    "schema": {
+        "structures": [
+            {
+                "name": "CODBEX_INDUSTRY",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "INDUSTRY_ID"
+                    },
+                    {
+                        "type": "VARCHAR",
+                        "length": 127,
+                        "nullable": true,
+                        "name": "INDUSTRY_NAME"
+                    }
+                ]
+            }
+        ]
+    },
+    "datasource": "DefaultDB"
+}

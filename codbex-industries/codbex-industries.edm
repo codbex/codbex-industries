@@ -1,12 +1,12 @@
 <model>
  <entities>
-  <entity name="Industry" dataName="INDUSTRY" dataCount="SELECT COUNT(*) AS COUNT FROM “${tablePrefix}_tableName”" dataQuery="" type="PRIMARY" title="Industry" caption="Manage entity Industry" tooltip="Industry" icon="industry" menuKey="industry" menuLabel="Industry" menuIndex="100" layoutType="MANAGE" navigationPath="/Home" perspectiveName="industry" perspectiveIcon="/services/web/resources/unicons/university.svg" perspectiveOrder="100">
-    <property name="Id" isCalculatedProperty="false" calculatedPropertyExpression="" dataName="INDUSTRY_ID" dataType="INTEGER" dataLength="0" dataNullable="true" dataPrimaryKey="true" dataAutoIncrement="true" dataUnique="false" widgetType="TEXTBOX" widgetLength="20" widgetIsMajor="true"></property>
-    <property name="Name" isCalculatedProperty="false" calculatedPropertyExpression="" dataName="INDUSTRY_NAME" dataType="VARCHAR" dataLength="127" dataNullable="true" dataPrimaryKey="false" dataAutoIncrement="false" dataUnique="false" widgetType="TEXTBOX" widgetLength="20" widgetIsMajor="true"></property>
+  <entity name="Industry" dataName="INDUSTRY" dataCount="SELECT COUNT(*) AS COUNT FROM “${tablePrefix}_tableName”" dataQuery="" type="PRIMARY" title="Industry" caption="Manage entity Industry" tooltip="Industry" icon="industry" menuKey="industry" menuLabel="Industry" menuIndex="100" layoutType="MANAGE" navigationPath="/Home" perspectiveName="industry" perspectiveLabel="Industry" perspectiveIcon="/services/web/resources/unicons/university.svg" perspectiveOrder="100" perspectiveRole="" generateReport="false">
+    <property name="Id" dataName="INDUSTRY_ID" dataType="INTEGER" dataNullable="true" dataPrimaryKey="true" dataAutoIncrement="true" widgetType="TEXTBOX" widgetSize="" widgetLength="20" widgetIsMajor="true"></property>
+    <property name="Name" dataName="INDUSTRY_NAME" dataType="VARCHAR" dataLength="127" dataNullable="true" widgetType="TEXTBOX" widgetSize="" widgetLength="20" widgetIsMajor="true"></property>
   </entity>
  </entities>
  <perspectives>
-  <perspective><name>industry</name><label>Industry</label><icon>/services/web/resources/unicons/university.svg</icon><order>100</order></perspective>
+  <perspective><name>industry</name><label>Industry</label><icon>/services/web/resources/unicons/university.svg</icon><order>100</order><role></role></perspective>
  </perspectives>
  <navigations>
  </navigations>

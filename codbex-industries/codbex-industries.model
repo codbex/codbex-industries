@@ -4,33 +4,26 @@
             {
                 "properties": [
                     {
-                        "calculatedPropertyExpression": "",
                         "dataAutoIncrement": "true",
-                        "dataLength": "0",
                         "dataName": "INDUSTRY_ID",
                         "dataNullable": "true",
                         "dataPrimaryKey": "true",
                         "dataType": "INTEGER",
-                        "dataUnique": "false",
-                        "isCalculatedProperty": "false",
                         "name": "Id",
                         "widgetIsMajor": "true",
                         "widgetLength": "20",
+                        "widgetSize": "",
                         "widgetType": "TEXTBOX"
                     },
                     {
-                        "calculatedPropertyExpression": "",
-                        "dataAutoIncrement": "false",
                         "dataLength": "127",
                         "dataName": "INDUSTRY_NAME",
                         "dataNullable": "true",
-                        "dataPrimaryKey": "false",
                         "dataType": "VARCHAR",
-                        "dataUnique": "false",
-                        "isCalculatedProperty": "false",
                         "name": "Name",
                         "widgetIsMajor": "true",
                         "widgetLength": "20",
+                        "widgetSize": "",
                         "widgetType": "TEXTBOX"
                     }
                 ],
@@ -38,6 +31,7 @@
                 "dataCount": "SELECT COUNT(*) AS COUNT FROM ￢ﾀﾜ${tablePrefix}_tableName￢ﾀﾝ",
                 "dataName": "INDUSTRY",
                 "dataQuery": "",
+                "generateReport": "false",
                 "icon": "industry",
                 "layoutType": "MANAGE",
                 "menuIndex": "100",
@@ -46,8 +40,10 @@
                 "name": "Industry",
                 "navigationPath": "/Home",
                 "perspectiveIcon": "/services/web/resources/unicons/university.svg",
+                "perspectiveLabel": "Industry",
                 "perspectiveName": "industry",
                 "perspectiveOrder": "100",
+                "perspectiveRole": "",
                 "title": "Industry",
                 "tooltip": "Industry",
                 "type": "PRIMARY"
@@ -58,7 +54,8 @@
                 "name": "industry",
                 "label": "Industry",
                 "icon": "/services/web/resources/unicons/university.svg",
-                "order": "100"
+                "order": "100",
+                "role": {}
             }
         ],
         "navigations": []
