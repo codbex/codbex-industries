@@ -1,0 +1,5 @@
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/industry/Industry/dialog-filter/view.js",
+    "extensionPoint": "codbex-industries-dialog-window",
+    "description": "codbex-industries - Application Dialog Window"
+}

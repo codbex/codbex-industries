@@ -1,12 +1,16 @@
 {
-  "tablePrefix": "CODBEX",
+  "tablePrefix": "CODBEX_",
   "brand": "codbex",
-  "brandUrl": "https://www.codbex.com/",
+  "brandUrl": "http://www.codbex.com",
   "title": "Industries Management Module",
-  "description": "Managing industries",
+  "description": "Managing industries data",
   "projectName": "codbex-industries",
   "workspaceName": "workspace",
   "filePath": "codbex-industries.model",
+  "templateId": "template-application-angular/template/template.js",
+  "fileName": "codbex-industries",
+  "genFolderName": "codbex-industries",
+  "dataSource": "DefaultDB",
   "perspectives": {
     "industry": {
       "views": [
@@ -36,7 +40,11 @@
           "widgetLength": "20",
           "widgetType": "TEXTBOX",
           "dataNotNull": false,
+          "isRequiredProperty": false,
           "widgetLabel": "Id",
+          "widgetDropdownUrl": "",
+          "dataTypeJava": "int",
+          "dataTypeTypescript": "number",
           "inputRule": ""
         },
         {
@@ -54,14 +62,18 @@
           "widgetLength": "20",
           "widgetType": "TEXTBOX",
           "dataNotNull": false,
+          "isRequiredProperty": false,
           "widgetLabel": "Name",
+          "widgetDropdownUrl": "",
+          "dataTypeJava": "string",
+          "dataTypeTypescript": "string",
           "minLength": 0,
           "maxLength": 20,
           "inputRule": ""
         }
       ],
       "caption": "Manage entity Industry",
-      "dataCount": "SELECT COUNT(*) AS COUNT FROM ￯﾿ﾢ￯ﾾﾀ￯ﾾﾜCODBEX_tableName￯﾿ﾢ￯ﾾﾀ￯ﾾﾝ",
+      "dataCount": "SELECT COUNT(*) AS COUNT FROM ￯﾿ﾢ￯ﾾﾀ￯ﾾﾜCODBEX__tableName￯﾿ﾢ￯ﾾﾀ￯ﾾﾝ",
       "dataName": "INDUSTRY",
       "dataQuery": "",
       "icon": "industry",
@@ -77,6 +89,8 @@
       "title": "Industry",
       "tooltip": "Industry",
       "type": "PRIMARY",
+      "dataSource": "DefaultDB",
+      "referencedProjections": [],
       "primaryKeys": [
         "Id"
       ],

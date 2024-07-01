@@ -1,0 +1,5 @@
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/launchpad/Home/view.js",
+    "extensionPoint": "codbex-industries-view",
+    "description": "codbex-industries - Application View"
+}
