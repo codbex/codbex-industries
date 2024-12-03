@@ -1,10 +1,8 @@
 const navigationData = {
     id: 'industries-navigation',
     label: "Industries",
-    view: "industries",
-    group: "configurations",
-    orderNumber: 1000,
-    lazyLoad: true,
+    group: "company",
+    order: 400,
     link: "/services/web/codbex-industries/gen/codbex-industries/ui/industry/index.html?embedded"
 };
 
