@@ -1,8 +1,8 @@
 const navigationData = {
     id: 'industries-navigation',
     label: "Industries",
-    group: "metadata",
-    order: 400,
+    group: "reference data",
+    order: 100,
     link: "/services/web/codbex-industries/gen/codbex-industries/ui/industry/index.html?embedded"
 };
 
