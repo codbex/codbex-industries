@@ -1,0 +1,10 @@
+[
+    {
+        "name": "codbex-industries.industry.IndustryReadOnly",
+        "description": "A role that grants read only permission for Industry."
+    },
+    {
+        "name": "codbex-industries.industry.IndustryFullAccess",
+        "description": "A role that grants full access for Industry."
+    }
+]

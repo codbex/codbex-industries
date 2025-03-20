@@ -1,1 +1,6 @@
-{"module":"codbex-industries/gen/codbex-industries/ui/industry/Industry/dialog-window/view.js","extensionPoint":"codbex-industries-dialog-window","description":"codbex-industries - Application Dialog Window"}
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/industry/Industry/dialog-window/view.js",
+    "extensionPoint": "dialog-window",
+    "description": "codbex-industries - Application Dialog Window",
+    "role": "codbex-industries.industry.IndustryReadOnly,codbex-industries.industry.IndustryFullAccess"
+}

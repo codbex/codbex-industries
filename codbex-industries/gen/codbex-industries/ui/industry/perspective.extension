@@ -1,1 +1,5 @@
-{"module":"codbex-industries/gen/codbex-industries/ui/industry/perspective.js","extensionPoint":"codbex-industries","description":"codbex-industries - Perspective - industry"}
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/industry/perspective.js",
+    "extensionPoint": "codbex-industries",
+    "description": "codbex-industries - Perspective - industry"
+}

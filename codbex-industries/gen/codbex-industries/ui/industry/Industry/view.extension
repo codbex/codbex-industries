@@ -1,1 +1,6 @@
-{"module":"codbex-industries/gen/codbex-industries/ui/industry/Industry/view.js","extensionPoint":"codbex-industries-view","description":"codbex-industries - Application View"}
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/industry/Industry/view.js",
+    "extensionPoint": "codbex-industries-view",
+    "description": "codbex-industries - Application View",
+    "role": "codbex-industries.industry.IndustryReadOnly,codbex-industries.industry.IndustryFullAccess"
+}
