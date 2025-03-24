@@ -1,5 +1,0 @@
-{
-    "extensionPoint": "dashboard-navigations",
-    "module": "codbex-industries/navigations/industries/service.js",
-    "description": "Industries Navigation"
-}

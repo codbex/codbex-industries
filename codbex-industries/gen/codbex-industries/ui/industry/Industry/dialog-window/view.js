@@ -7,7 +7,7 @@ const viewData = {
     id: "Industry-details",
     label: "Industry",
     link: "/services/web/codbex-industries/gen/codbex-industries/ui/industry/Industry/dialog-window/index.html",
-    perspectiveName: "industry",
+    perspectiveName: "industry"
 };
 
 if (typeof exports !== 'undefined') {

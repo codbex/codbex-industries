@@ -5,10 +5,10 @@
  */
 const perspectiveData = {
 	id: 'industry',
-	name: '${perspectiveLabel}',
+	name: 'Industry',
 	link: '/services/web/codbex-industries/gen/codbex-industries/ui/industry/index.html',
-	order: 100,
-	icon: '/services/web/resources/unicons/university.svg',
+	order: '100',
+	icon: '/services/web/resources/unicons/university.svg'
 };
 
 if (typeof exports !== 'undefined') {

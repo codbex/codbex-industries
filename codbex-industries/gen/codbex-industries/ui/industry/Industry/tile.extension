@@ -1,1 +1,6 @@
-{"module":"codbex-industries/gen/codbex-industries/ui/industry/Industry/tile.js","extensionPoint":"codbex-industries-tile","description":"codbex-industries - Application Tile"}
+{
+    "module": "codbex-industries/gen/codbex-industries/ui/industry/Industry/tile.js",
+    "extensionPoint": "codbex-industries-tile",
+    "description": "codbex-industries - Application Tile",
+    "role": "codbex-industries.industry.IndustryReadOnly,codbex-industries.industry.IndustryFullAccess"
+}

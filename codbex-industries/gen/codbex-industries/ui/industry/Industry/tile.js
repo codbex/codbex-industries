@@ -10,10 +10,10 @@ exports.getTile = function () {
         caption: "Manage entity Industry",
         tooltip: "Industry",
         type: "PRIMARY",
-        report: "${generateReport}",
+        report: "false",
         icon: "industry",
         location: "/services/web/codbex-industries/gen/codbex-industries/ui/industry/index.html",
         order: "100",
-        groupOrder: "100",
+        groupOrder: "100"
     };
-};
+}

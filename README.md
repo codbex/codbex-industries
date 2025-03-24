@@ -14,17 +14,3 @@ Industries Management Application
 #### Management
 
 ![management](images/industries-management.png)
-
-### Infrastructure
-
-#### Build
-
-	docker build -t codbex-industries:1.0.0 .
-
-#### Run
-
-	docker run --name codbex-industries -d -p 8080:8080 codbex-industries:1.0.0
-
-#### Clean
-
-	docker rm codbex-industries
