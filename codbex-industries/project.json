@@ -1,27 +1,4 @@
 {
     "guid": "codbex-industries",
-    "dependencies": [
-        {
-            "guid": "codbex-navigation-groups",
-            "type": "git",
-            "url": "https://github.com/codbex/codbex-navigation-groups",
-            "branch": "main"
-        }
-    ],
-    "actions": [
-        {
-            "name": "Build TypeScript",
-            "commands": [
-                {
-                    "os": "unix",
-                    "command": "tsc"
-                },
-                {
-                    "os": "windows",
-                    "command": "cmd /c tsc"
-                }
-            ],
-            "registry": "true"
-        }
-    ]
+    "actions": []
 }
